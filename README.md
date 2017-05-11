@@ -3,7 +3,6 @@ A repository containing a clone of a simple user interface created using HTML an
 ### Technologies used.
 * HTML</br>
 * CSS</br>
-* Font-Awesome(for icons)
 #### Case Study
 * Andela Homepage</br>
 
