@@ -1,0 +1,541 @@
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	width: 200px;
+	height: 55px;
+	float: left;
+	margin: 14px 50px;
+}
+
+li.dropdown {
+	display: block;
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+	display: block;
+	color: black !important;
+	background-color: #fff;
+	font-size: 16px;
+	margin-top: 40px;
+	padding: 20px 100px 20px 40px;
+	border-top: 6px solid #3359df;
+}
+
+div.dropdown-content a:hover {
+	color: #3359df;
+}
+
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+ul.list li:hover {
+	opacity: 0.8;
+}
+
+ul.list li {
+	list-style-type: none;
+	display: inline;
+	margin: 20px 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.vl {
+	font-size: 30px;
+	color: white;
+}
+ul.list li a {
+	text-decoration: none;
+	color: white;
+}
+
+.list {
+	float: right;
+	margin: 30px 50px;
+}
+
+
+ul.list li.learn a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #3359df;
+	padding: 13px 30px;
+	border: 1px solid #3359df;
+	border-radius: 7px;
+	box-sizing: border-box;
+	background-color: white;
+	font-weight: bold;
+}
+
+.nav {
+	background-image: url(https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/AL-50.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+}
+.nav-overlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.nav-inside {
+	color: #3359df;
+}
+h1 {
+	font-size: 70px;
+	color: white;
+}
+div.heading {
+	text-align: center;
+	margin: 130px 300px 0 200px;
+	text-align: left;
+}
+
+
+
+.blue {
+	background-color: #3359df;
+	height: 95px;
+	margin-top: -10px;
+
+}
+.blue p {
+	color: white;
+	font-size: 17px;
+	float: left;
+	margin: 40px 0px 50px 200px;
+}
+div.blue a {
+	box-sizing: border-box;
+	height: 50px;
+	width: 180px;
+	border: none;
+	border-radius: 5px;
+	background-color: black;
+	float: right;
+	margin: 30px 120px 20px 0px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px;
+	text-align: center;
+}
+
+div.blue>a:hover {
+	border: 2px solid #3359df;
+	background-color: white;
+	color: #3359df;
+	font-weight: bold;
+}
+
+.next {
+	height: 300px;
+	background-image: url(https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Background.jpg);
+	margin-top: -95px;
+}
+
+.right {
+	text-align: left;
+	font-size: 20px;
+	margin: 80px 10px 0 20px;
+	width: 60%;
+	padding-left: 500px;
+	padding-top: 60px
+}
+p.small {
+	font-size: 17px;
+}
+
+p.big {
+	font-weight: bold;
+}
+
+div.jumbotron {
+	display: table;
+	padding: 15px 50px;
+
+}
+
+div.box {
+	width: 500px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.mag-right {
+	margin: 40px 60px 20px 110px;
+}
+
+div.mag-left {
+	margin: 40px 50px 20px 20px;
+}
+
+div.float {
+	float: left;
+	overflow: auto;
+}
+
+div.head {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.img img{
+	text-align: center;
+	height: 55px;
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
+
+div.same_font {
+	font-size: 20px;
+
+}
+
+.black {
+	background-color: black;
+	height: 100px;
+	color: white;
+}
+
+.black>p {
+	float: left;
+	margin: 33px 20px 50px 150px;
+	font-size: 16px;
+}
+.black>a {
+	float: right;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 13px;
+	margin: 25px 150px;
+	height: 47px;
+	width: 180px;
+	border-radius: 3px;
+	background-color: #3359df;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	border: none;
+	font-weight: bold;
+}
+
+.black>a:hover {
+	border: 2px solid #3359df;
+	background-color: #fff;
+	color: #3359df;
+	font-weight: bold;
+}
+
+div.testimony {
+	background-image: url(https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/slider-image.jpg);
+	height: 380px;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	color: #fff;
+	font-size: 25px;
+}
+
+div.testimonial-img img {
+	width: 80px;
+	height: 80px;
+	margin-top: -30px;
+}
+div.testimony-overlay>p {
+	margin: 80px;
+}
+
+div.testimony-overlay {
+	position: absolute;
+	background-color: rgba(0,20,100,0.8);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+div.same_box {
+	width: 20%;
+	height: auto;
+	box-sizing: border-box;
+	margin: 30px 30px 40px 90px;
+	display: block;
+}
+
+div.feature {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+div.headline h3 {
+	text-transform: uppercase;
+	color: grey;
+	font-size: 25px;
+}
+
+div.logo img {
+	width: 400px;
+	height: 300px;
+	margin: -15px auto 10px auto;
+}
+
+div.blue_header p{
+	color: blue;
+	font-size: 24px;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+
+div.para p {
+	font-size: 20px;
+	color: black;
+}
+
+div.icon {
+	padding-top: 15px;
+}
+
+div.learn_more {
+	margin-top: 40px;
+}
+
+div.learn_more a {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 15px 35px;
+	margin: 45px 0px;
+	height: 40px;
+	width: 250px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #3356df;
+	border-radius: 3px;
+	border: 1px solid #3359df;
+	text-decoration: none;
+	position: relative;
+	transition: background-color 0.4s ease;
+	transition: right ease 0.5s;
+	right: 0;
+}
+
+div.learn_more a:hover div>i {
+	right: -10px;
+}
+
+div.learn_more a:hover {
+	color: #fff;
+	background-color: #3359df;
+}
+
+div.help_you {
+	width: 100%;
+	height: 124px;
+	background-color: #4f6fe3;
+}
+
+div.help {
+	color: #fff;
+	font-size: 20px;
+	margin: 13px 0px 15px 200px;
+	float: left;
+	font-weight: bold;
+}
+
+div.contact a{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #4f6fe3;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-right: 150px;
+	margin-top: 33px;
+	box-sizing: border-box;
+	padding: 13px 37px;
+	text-align: center;
+}
+
+div.contact a:hover {
+	border: 2px solid #4f6fe3;
+	color: #4f6fe3;
+	background-color: #fff;
+}
+
+div.footer {
+	background-color: #1a1a1a;
+	height: auto;
+	width: 100%;
+	margin-top: -35px;
+	display: -webkit-flex;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	display: flex;
+}
+
+div.foot {
+	height: auto;
+	margin-right: 20px;
+	width: 25%;
+}
+
+div.foot img {
+	margin-left: -10px;
+}
+div.foot h4 {
+	margin-left: 20px;
+	margin-right: -15px;
+}
+
+div.navigation ul li a{
+	font-family: 'Open Sans', sans-serif; 
+	text-decoration: none;
+	color: grey;
+	font-size: 13px;
+	opacity: 0.6;
+	margin-left: -17px;
+}
+div.navig {
+	width: 18% !important;
+}
+
+div.navigation ul li a:hover {
+	color: #3359df;
+}
+div.twit {
+	width: 20% !important;
+}
+
+div.navigation ul li {
+	padding-top: 8px;
+	list-style-type: none;
+
+}
+
+h4 {
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+}
+div.box1 {
+	text-align: left;
+	margin-left: 50px;
+	width: 20%;
+	padding: 20px;
+	font-size: 15px;
+	color: white;
+	opacity: 0.7;
+}
+
+div.link a, div.link{
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: white;
+	opacity: 0.6; 
+}
+
+div.link a:hover {
+	color: #3359df;
+	opacity: 1;
+}
+
+div.brand a{
+	color: white;
+	margin-right: 20px;
+}
+
+div.brand a:hover{
+	color: #3359df;
+}
+div.sitk {
+	margin-left: 20px;
+}
+
+div.twitter-feeds p{
+	font-size: 14px;
+	color: grey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.twitter-feeds p.twitter-icon {
+	color: #3359df;
+}
+div.twitter-feeds a{
+	color: grey;
+	opacity: 0.5;
+}
+
+div.twitter-feeds a:hover {
+	color: #3359df;
+}
+
+form>input {
+	width: 270px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+form>input[type="button"] {
+	background-color: #3359df;
+	color: white;
+	border: none;
+}
+
+form>input[type="button"]:hover {
+	background-color: #fff;
+	color: #3359df;
+}
+
+form>input[type="email"] {
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: none;
+}
+
+div.copyright {
+	height: 100px;
+	background-color: #1a1a1a;
+	color: white;
+	text-align: center;
+	margin-top: -20px;
+}
+
+div.copyright>p{
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 
+}
